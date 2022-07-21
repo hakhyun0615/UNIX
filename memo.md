@@ -1,4 +1,4 @@
-# 파일과 디렉토리를 둘러볼 때 사용하는 command
+# 파일과 디렉토리(폴더)를 둘러볼 때 사용하는 command
 * pwd(print working directory) cf) working directory: 현재 위치해 있는 directory
 * cd(change directory) ex) cd /: root directory로 이동, cd ~: home directory로 이동, cd -: 이전 directory로 이동
 * ls(list): directory의 내용물들을 쭉 보여줌 ex) ls /bin: bin directory의 내용물 확인 
@@ -39,5 +39,39 @@
 * less 파일1 파일2: 파일 내용 페이지 단위로 나눠서 출력 cf) f/b: 페이지 이동, g/G: 첫/마지막 페이지로 이동, q:종료
 * head 파일1 cf) head -n 5 파일1: 보고싶은 정확한 줄 수 입력 가능
 * tail 파일1
+
+# 파일과 디렉토리 옮기기 & 이름 변경하기
+* mv(move) 디렉토리1 디렉토리2(이미 존재하면 디렉토리1이 디렉토리2 안으로 이동, 존재하지 않으면 이름 변경)
+* mv 파일1 파일2(이미 존재하면 덮어씀, 존재하지 않으면 이름 변경) ex) mv -i test1.txt test2.txt: -i를 넣음으로써 안전하게 덮어쓸지 말지 여부를 물어봄
+
+# 파일과 디렉토리 복사 붙여넣기
+* cp(copy) 복사할_파일 복사본_이름/복사할_경로(이미 존재하면 덮어씀) cf) 의도치 않게 덮어쓰는 일이 없기 위해 -i를 씀
+* cp -r 복사할_디렉토리 복사본_이름
+
+# 파일과 디렉토리 삭제하기
+* rm(remove) 파일1 파일2
+* rm -r 디렉토리1 디렉토리2 cf) -ri: 재확인, -rf: 물어보지 않음
+
+# macOS에서 외부 프로그램 설치하기:homebrew
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
