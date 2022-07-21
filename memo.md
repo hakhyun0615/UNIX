@@ -52,7 +52,8 @@
 * rm(remove) 파일1 파일2
 * rm -r 디렉토리1 디렉토리2 cf) -ri: 재확인, -rf: 물어보지 않음
 
-# macOS에서 외부 프로그램 설치하기:homebrew
+# macOS에서 외부 프로그램 설치하기
+* homebrew
 
 
 
