@@ -1,2 +1,2 @@
-# Unix Commands Basics Course Summary
+# Unix Commands
 This repository contains notes and summaries from a Unix commands basics course. 
